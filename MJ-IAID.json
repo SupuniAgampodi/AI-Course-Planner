@@ -1,0 +1,39 @@
+{
+    "units": {
+        "ICT502": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT508": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT521": {"credits": 3, "available": [1,2,3,4], "type": "core"},
+        "ICT581": {"credits": 3, "available": [2,4], "type": "core"},
+        "ICT582": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT583": {"credits": 3, "available": [1, 2, 3,4], "type": "core"},
+        "ICT615": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT513": {"credits": 3, "available": [1, 2,3,4], "type": "required"},
+        "ICT515": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT601": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT606": {"credits": 3, "available": [1,3], "type": "required"},
+        "ICT616": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT619": {"credits": 3, "available": [1,3], "type": "required"},
+        "ICT605": {"credits": 3, "available": [2,4], "type": "required"}
+       
+    },
+    "electives": {
+        "ICT501": {"credits": 3, "available": [2,4], "type": "elective"},
+        "ICT505": {"credits": 3, "available": [2,4], "type": "elective"},
+        "ICT612": {"credits": 3, "available": [1,3], "type": "elective"},
+        "ICT631": {"credits": 3, "available": [1,3], "type": "elective"},
+        "ICT622": {"credits": 3, "available": [2,4], "type": "elective"},
+        "GRD503": {"credits": 3, "available": [1,2,3,4], "type": "elective"},
+        "GRD505": {"credits": 3, "available": [1,3], "type": "elective"},
+        "GRD506": {"credits": 3, "available": [2,4], "type": "elective"}, 
+        "GRD508": {"credits": 3, "available": [2,4], "type": "elective"},
+        "MBS659": {"credits": 3, "available": [1,2,3,4], "type": "elective"},
+        "ICT621": {"credits": 6, "available": [1,2,3,4], "type": "elective"}
+    },
+    "prerequisites": {
+        "ICT606": ["ICT513", "ICT515"],
+        "ICT619": ["ICT515", "ICT583"],
+        "ICT605": ["ICT606"],
+        "ICT621": ["ICT508", "ICT521"]
+    }
+    
+}

@@ -1,0 +1,39 @@
+{
+    "units": {
+        "ICT502": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT508": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT521": {"credits": 3, "available": [1, 2,3,4], "type": "core"},
+        "ICT581": {"credits": 3, "available": [2,4], "type": "core"},
+        "ICT582": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT583": {"credits": 3, "available": [1, 2,3,4], "type": "core"},
+        "ICT615": {"credits": 3, "available": [1,3], "type": "core"},
+        "ICT519": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT546": {"credits": 3, "available": [1,3], "type": "required"},
+        "ICT535": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT600": {"credits": 3, "available": [1,3], "type": "required"},
+        "ICT603": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT604": {"credits": 3, "available": [2,4], "type": "required"},
+        "ICT607": {"credits": 3, "available": [1,3], "type": "required"}
+    },
+
+    "electives": {
+        "ICT516": {"credits": 3, "available": [2,4], "type": "elective"},
+        "ICT601": {"credits": 3, "available": [2,4], "type": "elective"},
+        "ICT612": {"credits": 3, "available": [1,3], "type": "elective"},
+        "ICT631": {"credits": 3, "available": [1,3], "type": "elective"},
+        "ICT616": {"credits": 3, "available": [2,4], "type": "elective"},
+        "ICT619": {"credits": 3, "available": [1,3], "type": "elective"},
+        "ICT621": {"credits": 6, "available": [1,2,3,4], "type": "elective"},
+        "ICT622": {"credits": 3, "available": [2,4], "type": "elective"}
+    },
+    "prerequisites": {
+        "ICT519": ["ICT582", "ICT502"],
+        "ICT535": ["ICT546"],
+        "ICT600": ["ICT502"],
+        "ICT603": ["ICT546"],
+        "ICT604": ["ICT502"],
+        "ICT607": ["ICT519"],
+        "ICT621": ["ICT508", "ICT521"],
+        "ICT619": ["ICT515", "ICT583"]
+    }
+}
